@@ -1,5 +1,7 @@
 import { pool } from './database.js';
 
+/*Todos los Libros*/
+
 class LibroController{
 
 	async getAll (req,res){
@@ -7,6 +9,8 @@ class LibroController{
 		const [result] = await pool.query("SELECT * FROM libros");
 		res.json(result);
 	}
+
+	/*Busqueda de libro por ID*/
 
 	async getOne (req,res){
         
@@ -38,7 +42,7 @@ class LibroController{
 
 	}
 
-	/*Proceso de Agregar Registros*/
+	/*Agregar Libro*/
 	async agregar (req,res){
 	    const libro = req.body;
 	    try{

@@ -4,6 +4,7 @@ import { libro } from './controller.js';
 
 export const router = Router()
 
+/*rutas*/
 router.get('/libros',libro.getAll);
 
 router.get('/libros/:id',libro.getOne);
