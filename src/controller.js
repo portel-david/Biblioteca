@@ -42,7 +42,7 @@ class LibroController{
 
 	}
 
-	/*Agregar Libro*/
+	/*Agregar Libro nuevo*/
 	async agregar (req,res){
 	    const libro = req.body;
 	    try{
@@ -60,7 +60,7 @@ class LibroController{
 
 	}
 
-	/*Proceso de Actualizar Registros*/
+	/*Proceso de Actualizar Registros nuevo*/
 
 	async actualizar (req,res){
 	    const libro = req.body;
@@ -80,7 +80,7 @@ class LibroController{
 
 	}
 
-		/*Baja de Libro*/
+		/*Baja de Libro nuevo*/
 
 	async Baja (req,res){
 	    const libro = req.body;
@@ -101,7 +101,7 @@ class LibroController{
 	}
 
 
-		/*Alta de Libro*/
+		/*Alta de Libro nuevo*/
 
 	async Alta (req,res){
 	    const libro = req.body;
@@ -120,7 +120,7 @@ class LibroController{
 	    }
 
 	}
-	/*Proceso de Eliminar Registros*/
+	/*Proceso de Eliminar Registros nuevo*/
 
 	async eliminar (req,res){
  	    const libro = req.body;
