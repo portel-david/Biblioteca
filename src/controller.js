@@ -101,7 +101,7 @@ class LibroController{
 	}
 
 
-		/*Alta de Libro nuevo*/
+		/*Alta de Libro nuevo actualizado*/
 
 	async Alta (req,res){
 	    const libro = req.body;
@@ -120,7 +120,7 @@ class LibroController{
 	    }
 
 	}
-	/*Proceso de Eliminar Registros nuevo*/
+	/*Proceso de Eliminar Registros actualizado*/
 
 	async eliminar (req,res){
  	    const libro = req.body;
